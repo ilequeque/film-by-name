@@ -8,9 +8,10 @@ Film By Name SwiftUI App is a simple iOS application built using SwiftUI that al
 - Uses the OMDb API to fetch movie data.
 
 ## Screenshots
-
-![Screenshot 1](filmByName-swiftui/Screenshots/Simulator%20Screenshot%201.png)
-![Screenshot 2](filmByName-swiftui/Screenshots/Simulator%20Screenshot%202.png)
+<div style="display: flex;">
+    <img src="filmByName-swiftui/Screenshots/Simulator%20Screenshot%201.png" alt="Screenshot 1" width="400" />
+    <img src="filmByName-swiftui/Screenshots/Simulator%20Screenshot%202.png" alt="Screenshot 2" width="400" />
+</div>
 
 
 ## Getting Started
