@@ -9,8 +9,8 @@ Film By Name SwiftUI App is a simple iOS application built using SwiftUI that al
 
 ## Screenshots
 
-![Screenshot 1](Screenshots/Simulator Screenshot1.png)
-![Screenshot 2](Screenshots/Simulator Screenshot2.png)
+![Screenshot 1](filmByName-swiftui/Screenshots/Simulator Screenshot1.png)
+![Screenshot 2](filmByName-swiftui/Screenshots/Simulator Screenshot2.png)
 
 
 ## Getting Started
