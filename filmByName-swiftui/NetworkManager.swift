@@ -8,7 +8,7 @@
 import Foundation
 
 class NetworkManager: ObservableObject {
-    let YOUR_API_KEY = "88d25054"
+    let YOUR_API_KEY = "XXX"
     @Published var filmData = FilmData()
     
     func fetchData(filmName: String) {
