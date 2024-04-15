@@ -8,11 +8,11 @@
 import Foundation
 
 class NetworkManager: ObservableObject {
-    
+    let YOUR_API_KEY = "88d25054"
     @Published var filmData = FilmData()
     
     func fetchData(filmName: String) {
-        if let url = URL(string: "https://www.omdbapi.com/?apikey=88d25054&t=\(filmName)"){
+        if let url = URL(string: "https://www.omdbapi.com/?apikey=\(YOUR_API_KEY)&t=\(filmName)"){
             let session = URLSession(configuration: .default)
             let task = session.dataTask(with: url) { data, response, error in
                 if error == nil {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC9C42C42BCD6EA900B483C2 /* Simulator Screenshot 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9C42C22BCD6EA900B483C2 /* Simulator Screenshot 2.png */; };
+		FC9C42C52BCD6EA900B483C2 /* Simulator Screenshot 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9C42C32BCD6EA900B483C2 /* Simulator Screenshot 1.png */; };
 		FCA5DBE82BC7F3CE008C5738 /* filmByName_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5DBE72BC7F3CE008C5738 /* filmByName_swiftuiApp.swift */; };
 		FCA5DBEA2BC7F3CE008C5738 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5DBE92BC7F3CE008C5738 /* ContentView.swift */; };
 		FCA5DBEC2BC7F3D0008C5738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA5DBEB2BC7F3D0008C5738 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC9C42C22BCD6EA900B483C2 /* Simulator Screenshot 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot 2.png"; sourceTree = "<group>"; };
+		FC9C42C32BCD6EA900B483C2 /* Simulator Screenshot 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot 1.png"; sourceTree = "<group>"; };
 		FCA5DBE42BC7F3CE008C5738 /* filmByName-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "filmByName-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA5DBE72BC7F3CE008C5738 /* filmByName_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filmByName_swiftuiApp.swift; sourceTree = "<group>"; };
 		FCA5DBE92BC7F3CE008C5738 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		FC9C42C12BCD6E8400B483C2 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C42C32BCD6EA900B483C2 /* Simulator Screenshot 1.png */,
+				FC9C42C22BCD6EA900B483C2 /* Simulator Screenshot 2.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		FCA5DBDB2BC7F3CE008C5738 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +93,7 @@
 				FCA5DBEB2BC7F3D0008C5738 /* Assets.xcassets */,
 				FCA5DBED2BC7F3D0008C5738 /* Preview Content */,
 				FC9C42BF2BCD679600B483C2 /* Model */,
+				FC9C42C12BCD6E8400B483C2 /* Screenshots */,
 			);
 			path = "filmByName-swiftui";
 			sourceTree = "<group>";
@@ -150,8 +164,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9C42C52BCD6EA900B483C2 /* Simulator Screenshot 1.png in Resources */,
 				FCA5DBEF2BC7F3D0008C5738 /* Preview Assets.xcassets in Resources */,
 				FCA5DBEC2BC7F3D0008C5738 /* Assets.xcassets in Resources */,
+				FC9C42C42BCD6EA900B483C2 /* Simulator Screenshot 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
